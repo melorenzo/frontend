@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Formulario from './Formulario';
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <div className="Formulario">
+          <Formulario />
+        </div>
+      </body>
     </div>
   );
 }
